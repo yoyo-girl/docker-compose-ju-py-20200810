@@ -1,0 +1,14 @@
+FROM jupyter/base-notebook
+RUN pip install --upgrade pip
+RUN pip install BeautifulSoup
+RUN pip install bs4 
+RUN pip install requests
+RUN pip install selenium 
+RUN pip install pandas 
+RUN pip install numpy 
+RUN pip install time 
+RUN pip install random 
+RUN pip install os
+RUN pip install datetime
+RUN pip install json 
+RUN pip install pymysql
